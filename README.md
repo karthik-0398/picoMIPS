@@ -1,2 +1,1 @@
-# picoMIPS
-picoMIPS architecture
+picoMIPS architecture files
