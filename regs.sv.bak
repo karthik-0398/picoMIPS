@@ -1,0 +1,33 @@
+// n - data bus width
+module regs #(parameter n = 8) (input logic clk, w, //reset,// clk and write control
+										  input logic [n-1:0] Wdata,
+										  input logic [1:0] Rdno, Rsno, // 2-bit register number
+										  output logic [n-1:0] Rd, Rs);
+// Declare 4 n-bit registers 
+logic [n-1:0] gpr [3:0];
+
+always_ff @ (posedge clk)//or negedge reset)
+	begin
+		if (w)
+			gpr[Rdno] <= Wdata;
+	end
+	
+always_comb
+	begin
+		// dual output bus: Rd and Rs
+		if (Rdno== 0)
+	        Rd =  {n{1'b0}};
+			else  
+				Rd = gpr[Rdno];
+	 
+        if (Rsno== 0)
+	        Rs =  {n{1'b0}};
+			else  
+				Rs = gpr[Rsno];
+	
+		//Rd = gpr[Rdno];
+		// if %0 is selected as Rs (Rsno==0) then Rs is 0
+	//	Rs = (Rsno==2'b00 ? {n{1'b0}} : gpr[Rsno]);
+	end
+	
+endmodule // module regs

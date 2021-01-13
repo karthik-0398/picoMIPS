@@ -1,0 +1,18 @@
+//psize - address width, Isize - instruction width
+module prog #(parameter Psize = 6, Isize = 24) (input logic [Psize-1:0] address,
+												output logic [Isize:0] I); // I - instruction code
+
+//program memory declaration, note: 1<<n is same as 2^n
+logic [Isize:0] progMem[(1<<Psize)-1:0];
+
+
+
+//get memory contents from file
+initial 
+	$readmemh("prog.hex",progMem);
+always_comb
+	begin 
+		I = progMem[address] ;
+	end
+	
+endmodule // end of module prog
