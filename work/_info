@@ -1,0 +1,300 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+valu
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+!s110 1589387696
+!i10b 1
+!s100 =WTh<D4WW=0NoAIQCzi221
+Im9UdDg2gko[anMXjN8VB53
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_sv_unit
+S1
+Z2 dC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips
+w1589384717
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alu.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alu.sv
+L0 9
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+!s108 1589387696.000000
+!s107 alucodes.sv|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alu.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alu.sv|
+!s101 -O0
+!i113 1
+Z4 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+valutest
+R0
+!s110 1589392611
+!i10b 1
+!s100 zHR3gGJ[EOnYK61?Fo5dR1
+I9Y^XGUTe>;G:]MalligB43
+R1
+!s105 alutest_sv_unit
+S1
+R2
+w1589392607
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alutest.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alutest.sv
+L0 10
+R3
+r1
+!s85 0
+31
+!s108 1589392611.000000
+!s107 alucodes.sv|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alutest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/alutest.sv|
+!s101 -O0
+!i113 1
+R4
+vcounter
+R0
+!s110 1589393796
+!i10b 1
+!s100 lSPehiTGf]Xbf?R>hYHYZ1
+I_Tf^L?5D>lz52LML4^2M]3
+R1
+!s105 counter_sv_unit
+S1
+R2
+w1589393794
+8C:\Users\ks6n1\OneDrive\Documents\ModelSim\picomips\counter.sv
+FC:\Users\ks6n1\OneDrive\Documents\ModelSim\picomips\counter.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1589393796.000000
+!s107 C:\Users\ks6n1\OneDrive\Documents\ModelSim\picomips\counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\ks6n1\OneDrive\Documents\ModelSim\picomips\counter.sv|
+!s101 -O0
+!i113 1
+R4
+vdecoder
+R0
+!s110 1589394835
+!i10b 1
+!s100 N@zoI]?EFLAb8Ff2]?HSg3
+I=3b8@OT^Km<3`JYZ0SQ?G2
+R1
+!s105 decoder_sv_unit
+S1
+R2
+w1589394833
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decoder.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decoder.sv
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1589394835.000000
+!s107 opcodes.sv|alucodes.sv|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decoder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decoder.sv|
+!s101 -O0
+!i113 1
+R4
+vdecodertest
+R0
+!s110 1589416159
+!i10b 1
+!s100 OC;j5P0L9hFE6cKVVCb]71
+IaD7]MHCnVSK?`?:4WIG??1
+R1
+!s105 decodertest_sv_unit
+S1
+R2
+w1589414815
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decodertest.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decodertest.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589416159.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decodertest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/decodertest.sv|
+!s101 -O0
+!i113 1
+R4
+vpc
+R0
+!s110 1589387414
+!i10b 1
+!s100 ?K^XgI9]Z_TI0BX87hNgz2
+I?V[@oiQC=`iVehN@H<`f=1
+R1
+!s105 pc_sv_unit
+S1
+R2
+w1549656504
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pc.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pc.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1589387414.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pc.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pc.sv|
+!s101 -O0
+!i113 1
+R4
+vpctest
+R0
+!s110 1589416221
+!i10b 1
+!s100 RZE6^J`@8=D[:i]`g@8:R3
+I]WI=Jm<79cMmMfi3JUR5]2
+R1
+!s105 pctest_sv_unit
+S1
+R2
+w1589416214
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pctest.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pctest.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589416221.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pctest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/pctest.sv|
+!s101 -O0
+!i113 1
+R4
+vpicoMIPS
+R0
+!s110 1589398982
+!i10b 1
+!s100 C<@ZL0;BNzJJf1hjza1eR0
+IJf_1i]J[2F<AZBm^Dh1b12
+R1
+!s105 picoMIPS_sv_unit
+S1
+R2
+w1589398562
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1589398982.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS.sv|
+!s101 -O0
+!i113 1
+R4
+npico@m@i@p@s
+vpicoMIPS4test
+R0
+!s110 1589405473
+!i10b 1
+!s100 iQi=gT_^>DkR@[AIg]?=G0
+IYc`PNSm=Nz@8kC3[Kz9f23
+R1
+!s105 picoMIPS4test_sv_unit
+S1
+R2
+w1589405472
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS4test.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS4test.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589405473.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS4test.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/picoMIPS4test.sv|
+!s101 -O0
+!i113 1
+R4
+npico@m@i@p@s4test
+vprog
+R0
+!s110 1589398568
+!i10b 1
+!s100 ?zn>JLYC@z@WS`9L7=7Vj0
+I_cnhon:LCZlS371nIif`:3
+R1
+!s105 prog_sv_unit
+S1
+R2
+w1589398567
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/prog.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/prog.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1589398568.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/prog.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/prog.sv|
+!s101 -O0
+!i113 1
+R4
+vregs
+R0
+!s110 1589442373
+!i10b 1
+!s100 cnAL[aT75[9M1SFg`RiQ32
+I_;:n^Ii]lhKYkncjVgV:I1
+R1
+!s105 regs_sv_unit
+S1
+R2
+w1589442358
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regs.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regs.sv
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1589442373.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regs.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regs.sv|
+!s101 -O0
+!i113 1
+R4
+vregtest
+R0
+!s110 1589443059
+!i10b 1
+!s100 <6C^ZcFB6KedX[i;F<<EE0
+IYhdn^Af8PYXiV2U8ho@@h1
+R1
+!s105 regtest_sv_unit
+S1
+R2
+w1589443042
+8C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regtest.sv
+FC:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regtest.sv
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1589443059.000000
+!s107 C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regtest.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ks6n1/OneDrive/Documents/ModelSim/picomips/regtest.sv|
+!s101 -O0
+!i113 1
+R4
